@@ -1,0 +1,100 @@
+hijack - 劫持
+malware - 惡意軟件
+malicious - 惡意的
+withdrawal - 退出
+preprocessor - 預處理器
+executable - 可實行的
+directive - 指示
+statement - 述句
+header - 標頭
+semicolon - 分號
+implementation - 實施
+mandatory - 強制性的
+termination - 終止
+compound - 複合
+string literal - 字串定數
+comment - 註解
+terminate - 終止
+variables - 變數
+arithmetic - 算數
+constant - 常數
+decimal - 小數
+expression - 表示式
+placeholder - 置換符號
+truncate - 截短
+numeric - 數值
+format - 格式
+string - 串
+compute - 計算
+macro - 巨集
+identifier - 識別字
+underscore - 下劃線
+case-sensitive - 區分大小寫
+upper-case - 大寫
+lower-case - 小寫
+legibility - 易讀性
+punctuation - 標點
+blank line - 空行
+new-line character- 換行字元
+indentation - 縮排
+nesting - 巢套
+split - 分裂
+assignment - 設定、指定
+syntactic - 語法
+cast - 轉型
+postincrement - 程式完成之後再+1的動作
+semantics - 語意
+intended - 意向的
+aspiring - 有抱負的
+incredibly - 令人難以置信的
+among - 其中
+variation - 變化
+assembly language - 組合語言
+readable - 可讀的
+revolutionize - 革新
+base level - 基本水平
+kernel - 核心
+desirable - 可取的
+intermediate-level - 中級水平
+extremely - 非常
+alongside - 在旁邊
+high-profile - 高調
+execute - 執行
+on the fly - 
+bytecode - 位元組碼
+enterprise - 企業
+syntax - 語法
+error-prone - 容易出錯
+remarkably - 顯著地
+comprehend - 理解
+originate - 起源
+template - 模板
+class - 類別
+object - 物件
+procedure - 程序
+method - 方法
+hybrid language - 混合語言
+procedural - 程序
+polymorphism - 多型
+encapsulation - 封裝
+inheritance - 繼承
+manipulate - 操作
+collision - 碰撞
+namespace - 命名空間
+reference variable - 參考變數
+alias - 別名
+notation - 符號
+shorthand notation - 簡寫
+exception handling - 例外處理
+error handling - 錯誤處理
+encapsulate - 封裝
+logical group - 邏輯組
+component-oriented - 組件為基
+executable - 可執行文件
+manually - 手動地
+standardized - 標準化的
+stand-alone - 獨立
+console application -  控制台應用程式
+extent - 程度
+enormously - 極大地
+similarity - 相似點

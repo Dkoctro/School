@@ -1,0 +1,19 @@
+calculus - 微積分
+differentiation - 微分
+integration - 積分
+fundamental theorem of calculus - 微積分基本定理
+domain - 定義域
+co-domain - 值域
+denote - 表示
+rational function - 有理函數
+irrational function - 無理函數
+approximation - 近似
+injective - 一對一
+surjective - 映成
+bijective - 一對一且映成
+inverse function - 反函數
+polynomials - 多項式
+fundamental theorem of algebra - 代數基本定理
+limit - 限度
+interval - 區間
+neighborhood - 鄰域

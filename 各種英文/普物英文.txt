@@ -1,0 +1,148 @@
+上學期:
+derivatives - 導數
+secant - 割線
+tangent(tan) - 正切
+infinitesimal - 無限小
+instantaneous - 瞬間
+quotient - 商
+integral - 積分
+exponential - 指數的
+logarithm - 對數
+euler number - 尤拉數
+trigonometry - 三角學
+displacement -　位移
+kinetic　- 動力學的
+mechanical - 機械的
+dissipative force - 散逸力
+translational motion - 平移運動
+uniform - 均質
+linear - 線性的
+semicircular - 半圓
+symmetry - 對稱
+propulsion - 推進力
+velocity - 速度
+application - 應用
+thrust - 推力
+rigid body - 剛體
+axis - 軸
+dimensionless - 無量綱
+angular - 角度的
+tangential - 切線的
+acceleration - 加速度
+centripetal - 向心的
+circular - 圓
+inertia - 慣性
+rotational inertia - 轉動慣量
+sphere - 球
+parallel - 平行
+dynamics - 動力學
+torque - 力矩
+rim - 邊緣
+friction - 摩擦
+wire - 線
+wrap - 包覆
+stationary - 平穩的
+horizontal - 水平的
+radius - 半徑
+descend - 下降
+constant - 不變的
+suspend - 中止
+downward - 向下
+bend - 彎曲
+segment - 段
+perpendicular - 垂直的
+midpoint - 中點
+axle - 軸
+cylinder - 圓筒
+equation - 方程
+pivot - 樞
+pulley - 滑輪
+coefficient - 係數
+weld - 焊接
+mount - 安裝
+bearing - 軸承
+exert - 施加
+tension - 張力
+cord - 繩子
+crate - 箱
+crank - 曲柄
+magnitude - 大小
+yoke - 軛
+collision - 碰撞
+turntable - 轉盤
+hinged - 樞
+
+下學期:
+Ch21:
+electrostatic - 靜電的
+permittivity - 介電常數
+superposition - 疊加
+probe - 探測
+quadrant - 象限
+curvature - 曲率
+component - 成分
+semicircle - 半圓
+
+Ch22:
+qualitatively - 定性的
+quantiatatively - 數量上
+electric flux - 電通量
+net flux - 淨通量
+nonconducting - 不傳導的
+equilibrium - 平衡
+concentric - 同心
+insulating - 絕緣的
+spherical - 球形
+bulk - 塊
+perpendicular - 垂直
+layer - 層
+diameter - 直徑
+exert - 發揮
+cavity - 空穴
+
+Ch23:
+ionize - 電離
+molecule - 分子
+circuitry - 電路
+audible - 可聽見的
+arc - 弧
+bend - 彎曲
+curvature - 曲率
+
+Ch26:
+ammeter - 電流表
+idealized - 理想化
+emf - 電動勢
+negligible - 微不足道
+dissipate - 消散
+with respect to - 相對於
+periodic - 週期性的
+
+Ch27:
+ribbon - 絲帶
+cubic - 立方體
+incline - 傾斜
+circumference - 圓周
+perpendicular - 垂直
+rail gun - 磁軌炮
+principle - 原則
+payload - 有效磁載
+exert - 發揮
+segment - 部分
+
+Ch28:
+cord - 繩索
+radii - 半徑
+
+Ch29:
+spatially - 在空間上
+vacuum - 真空
+
+Ch30:
+negligible - 微不足道
+oscillation - 振盪
+sinusoidal - 正弦的
+coil - 線圈
+cable - 電纜
+strip - 條
+
