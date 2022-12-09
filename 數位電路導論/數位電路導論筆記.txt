@@ -1,0 +1,49 @@
+運算放大器-OP Amp
+
+輸入跟輸出為反向:liner amplifier - inberting amplifier:運算放大器的輸入阻抗為無限大-電流幾乎=0-兩端電壓差幾乎為0
+
+輸入電流i1、輸出電流i2->KCL:i1+i2=0
+
+放大倍率:-Rf/Rin
+
+輸入跟輸出為正向:non-inverting amplifier:
+
+Vout*R1/(R1+R2)=Vin	
+
+V+ - V_ = Vin. 
+
+傅利葉轉換(Fourier).
+
+Carrier.
+
+Slew rate:0.1Vp~0.9Vp的速度
+
+會設計low pass filter
+
+設計filter的問題:
+1.放大倍率
+2.輸入阻抗:R1
+3.輸出阻抗:
+4.失真:截波失真(放大器倍率太高)
+5.功率(/3 or /2)
+6.頻率響應
+H(w)
+^
+|---) 
+|    \
+|     \
+|      \
+---------->freq
+(low-pass filter)
+magnitude:|H(w)|
+cut-off frequency:開始往下掉的頻率
+Ex:If放大倍率=10，cut-off frequency=10*1/根號2=7.07
+20log|H(w)| -> db
+
+1*10^-6F
+	
+cut off frequency:放大倍率=A,20logA=db,
+
+1/8or1/9公布成績
+1/11下午去辦公室討分
+
