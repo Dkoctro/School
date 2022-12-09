@@ -1,0 +1,9 @@
+Logic gate:
+1.NOT gate (輸入跟輸出相反)
+2.AND gate(輸入需要皆為1，不然輸出將不會是1)
+3.OR gate(輸入只要有一個1，輸出就會是1)
+4.NAND gate(跟AND gate輸出相反，也就是輸入都是1的時候，輸出是0)
+5.NOR gate(跟OR gate輸出相反)
+6.Exclusive-OR (XOR) gate(輸入要一個0、一個1，輸出才是1，也就是兩個輸入不一樣的時候)
+7.Buffer(輸入跟輸出一樣)
+8.Exclusive-XOR(跟XOR gate輸出相反)

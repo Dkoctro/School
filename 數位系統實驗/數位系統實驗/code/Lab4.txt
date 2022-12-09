@@ -1,0 +1,60 @@
+Lab4_1
+
+module adder_subtractor(a, b, select, out, overflow);
+input [1:0] a, b;
+input select;
+output [1:0] out;
+output overflow;
+reg [1:0]out;
+reg overflow; 
+    
+always@(*)
+begin
+    if(select)
+        {overflow,out}=a+b;//相加後前面的bit放入overflow,後面的bit放入out
+    else 
+        {overflow,out}=a-b;
+end
+
+endmodule
+
+Lab4_2
+
+module encoder(in, valid, out);
+    
+input [3:0] in;
+output reg valid;
+output reg [1:0] out;
+
+always@(*)
+begin
+case(in)
+    4'b0001:
+        begin
+        valid= 1;
+        out=2'b00;
+        end
+    4'b0010:
+        begin
+        valid= 1;
+        out=2'b01;
+        end
+    4'b0100:
+        begin
+        valid= 1;
+        out=2'b10;
+        end
+    4'b1000:
+        begin
+        valid= 1;
+        out=2'b11;
+        end
+    default:
+        begin
+        valid= 0;
+        out=2'b00;
+        end
+endcase
+end
+    
+endmodule

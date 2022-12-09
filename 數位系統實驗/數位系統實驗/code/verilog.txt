@@ -1,0 +1,127 @@
+# Verilog
+- 是一種硬體描述語言(**HDL**)
+- 方式:Top-Down
+- 類型:
+    - Structural Description
+    - Data Flow Description
+    - Behavior Description
+- 寫法範例:
+``` verilog=
+module HA(a,b,sum,carry);//宣告模組//記得名稱要跟project名稱一樣
+
+input  a,b;//宣告輸入腳位
+output [2:0] sum,carry;//宣告輸出腳位
+//未宣告bit預設為1    // n bits -> [n+1:0]
+    
+and u1(carry,a,b);
+and u2(sum,a,b);
+//使用多個相同module時，須給定每個module名稱
+xor(sum,a,b);
+
+endmodule
+```
+- 進階寫法:(可以同時含有多種寫法)
+```verilog=
+module circuit(in,out);
+
+input [3:0] in;
+output [3:0] out;
+reg [3:0] a;
+wire [3:0] b;
+wire [3:0]tmp;
+Adder u_adder(.in1(a), .in2(b), .out(tmp));
+//module_name unit_name(.port_name(signal_name));
+
+assign  b=in+4'd3;
+assign out=tmp;
+
+always@(in)
+begin
+    a=in + 4'd1;
+end
+    
+endmodule
+
+module Adder (in1,in2,out);
+    
+input [3:0]in1,in2;
+output [3:0]out;
+    
+assign out =in1 + in2;
+
+endmodule
+```
+# Structural Description
+``` verilog=
+module HA(a,b,sum,carry);
+
+input a,b;
+output sum,carry;
+
+and(carry,a,b);
+xor(sum,a,b);
+
+endmodule
+``` 
+- 使用module寫法
+
+# Data Flow Description
+``` verilog=
+module HA(a,b,sum,carry);
+
+input a,b;
+output sum,carry;
+
+assign carry = a&b;
+assign sum = a^b;
+
+endmodule
+``` 
+- 輸出不可包含輸入 , ex : assign a=a+1
+- 同個訊號只能被assign一次
+- **運算結果需存至wire變數**(input.output預設為wire)
+- 連接至output腳位需使用wire
+- 條件判斷以三元運算子進行
+
+``` verilog=
+module Mux(a,b,c);
+
+input [2:0]a,b;
+output [2:0]c;
+
+assign c=(a>b)?a:b;
+
+endmodule
+``` 
+- operator:
+    - 加法 : a + b
+    - 減法 : a - b
+    - 乘法 : a * b
+    - 除法 : a / b
+    - and : a & b
+    - or : a | b
+    - not : ~ a
+    - nor : a ^ b
+
+# Behavior Description(Procedural Assignment)
+``` verilog=
+module HA(a,b,sum,carry);
+
+input a,b;
+output sum,carry;
+reg sum,carry;
+
+always@(a or b)
+begin
+    carry = a&b;
+    sum = a^b;
+end 
+
+endmodule
+``` 
+- 當always block的sensitivity list 裡的訊號改變就會執行一次block內的程式
+- 設計combination circuit 時可用"*"取代sensitivity list內容
+- **運算結果需存至reg變數**
+- 條件判斷可使用三元運算子.if-else.case
+- 不可在always block中呼叫module
+- 

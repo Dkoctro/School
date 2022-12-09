@@ -1,0 +1,15 @@
+Lab3
+
+module FA(x,y,c_in,c_out,sum);
+
+input x,y,c_in;
+output sum,c_out;
+reg sum,c_out; 
+
+always@(x or y or c_in)
+begin
+    c_out=(x&y)|(x&c_in)|(y&c_in);
+    sum=((~x)&(~y)&c_in)|(x&(~y)&(~c_in))|((~x)&y&(~c_in))|(x&y&c_in);
+end
+
+endmodule

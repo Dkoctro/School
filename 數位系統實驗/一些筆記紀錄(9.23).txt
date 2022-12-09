@@ -1,0 +1,38 @@
+數位系統實驗:
+第六周期中考:
+lab1、lab2
+
+下方麵包板在黑線上，水平24個孔都有連接
+
+連接的孔主要是用來分享電源
+
+晶片盡量接在麵包板的凹槽上，因為兩邊是沒有連接的
+
+74LS00:
+14根pin腳、NAND gate，從缺口的下方開始數1，到底之後直接向上數8，在接麵包板的時候，缺口朝上，電源在右上角、接地在左下角
+
+74LS04:
+NOT gate，電源跟接地線位置一樣，接線的方式跟74LS00不一樣，是一輸入一輸出
+
+74LS08:
+AND gate，分布腳位跟74LS00一樣，只是是AND gate
+
+74LS32:
+OR gate，分布腳位跟74LS00一樣，只是是OR gate
+
+Three representations for a circuit:
+1.Boolean Algebra
+2.Truth Table
+3.Circuit Diagram
+
+實驗的器材:
+1.Solerless Breadboard *1
+2.74LS00 *1
+3.74LS04 *1
+4.74LS08 *1
+5.74Ls32 *1
+
+到時候實體上課，要可以寫出真值表跟過程
+
+
+

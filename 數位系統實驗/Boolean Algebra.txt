@@ -1,0 +1,60 @@
+Boolean Algebra:
+
+Par1:
+input:binary variables (0or1)
+logic operation symbols:+,˙, '
+
+AND:
+x˙y
+
+OR:
+x+y
+
+NOT:
+x'
+
+Closure(封閉性)成立(result is 0 or 1)
+
+Involution:
+(x')'=x
+
+Commutative:
+x+y=y+x, xy=yx
+
+Associative:
+x+(y+z)=(x+y)+z, x(yz)=(xy)z
+
+Distributive:
+x(y+z)=xy+xz, x+yz=(x+y)(x+z)
+
+DeMorgan:
+(x+y)'=x'y', (xy)'=x'+y'
+
+Absorption:
+x+xy=x, x(x+y)=x
+
+3 kinds of representations for Boolean functions(Boolean functions = circuit):
+Boolean Algebra
+Truth table
+Circuit diagram
+
+Equivalent Circuits:
+how to prove it?
+use Boolean Algebra and many kinds of rule, or use Truth table(output is same with identical input)
+
+Part2:
+DeMorgan's Theorems:
+(x+y)'=x'y'
+(xy)'=x'+y'
+(x'+y')'=xy
+(x'y')'=(x')'+(y')'=x+y
+Generalizations:
+(A+B+C+...+F)'=A'B'C'...F'
+(ABC...F)=A'+B'+C'+...+F'
+Ex:
+(x'yz'+x'y'z)'=(x'yz')'(x'y'z)'=(x+y'+z)(x+y+z')
+
+(A+B)'(A'+B')
+=(x'y')(xy)
+
+
